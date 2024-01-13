@@ -1,6 +1,6 @@
 [package]
 name = "jwt-simple-no-nbf-fork"
-version = "0.12.8"
+version = "0.12.9"
 description = "Easy to use, secure, non opinionated JWT (JSON Web Tokens) implementation for Rust."
 authors = ["Adam Horn <github@hornadam8>"]
 edition = "2018"

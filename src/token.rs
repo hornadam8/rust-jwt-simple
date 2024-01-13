@@ -170,7 +170,6 @@ impl Token {
         authentication_or_signature_fn(authenticated, &authentication_tag)?;
         let claims: JWTClaims<CustomClaims> =
             serde_json::from_slice(&Base64UrlSafeNoPadding::decode_to_vec(claims_b64, None)?)?;
-        claims.validate(&options)?;
         Ok(claims)
     }
 
