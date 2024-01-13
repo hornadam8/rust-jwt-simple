@@ -50,7 +50,7 @@ impl Default for JWTHeader {
             certificate_chain: None,
             certificate_sha1_thumbprint: None,
             certificate_sha256_thumbprint: None,
-            signature_type: Some("JWT".to_string()),
+            signature_type: None,
             critical: None,
         }
     }
