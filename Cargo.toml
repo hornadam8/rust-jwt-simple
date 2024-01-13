@@ -1,12 +1,12 @@
 [package]
-name = "jwt-simple"
+name = "jwt-simple-no-nbf-fork"
 version = "0.12.7"
 description = "Easy to use, secure, non opinionated JWT (JSON Web Tokens) implementation for Rust."
-authors = ["Frank Denis <github@pureftpd.org>"]
+authors = ["Adam Horn <github@hornadam8>"]
 edition = "2018"
 license = "ISC"
-repository = "https://github.com/jedisct1/rust-jwt-simple"
-homepage = "https://github.com/jedisct1/rust-jwt-simple"
+repository = "https://github.com/hornadam8/rust-jwt-simple"
+homepage = "https://github.com/hornadam8/rust-jwt-simple"
 categories = ["wasm", "api-bindings", "web-programming", "cryptography"]
 keywords = ["jwt", "jws", "authentication", "tokens", "json"]
 readme = "README.md"
