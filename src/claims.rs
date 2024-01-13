@@ -329,7 +329,7 @@ impl Claims {
         JWTClaims {
             issued_at: now,
             expires_at: Some(now.unwrap() + valid_for),
-            invalid_before: now,
+            invalid_before: None,
             audiences: None,
             issuer: None,
             jwt_id: None,
